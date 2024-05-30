@@ -134,6 +134,24 @@
                 "The Tea Tour: Discover the process of making Ceylon tea.",
                 "Sunrise hike to Ella Rock: A scenic hike with breathtaking views."
             ]
+        },
+        {
+            "tag": "surfing",
+            "patterns": ["Best surfing spots", "Surfing beaches", "Surf schools", "Learn to surf", "Surfing lessons"],
+            "responses": [
+                "Mirissa Beach is known for its beautiful sunsets and great waves for surfing.",
+                "Hikkaduwa Beach offers exciting waves and vibrant nightlife for surfers.",
+                "Weligama Beach is perfect for beginners with its gentle waves and surfing schools."
+            ]
+        },
+        {
+            "tag": "hiking",
+            "patterns": ["Best hiking trails", "Hiking spots", "Nature trails", "Guided hikes", "Hiking tours"],
+            "responses": [
+                "Sinharaja Forest Reserve offers guided hikes through its rich biodiversity.",
+                "Ella Rock provides a challenging hike with rewarding views of the surrounding landscapes.",
+                "Mulkirigala Rock Temples offer a cultural and scenic hike with ancient Buddhist murals."
+            ]
         }
     ]
 }
