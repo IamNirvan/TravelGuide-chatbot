@@ -75,7 +75,6 @@ class ModelV1:
             raise
 
 
-    # len of train_x and train_y
     def construct_model(self, inputSize: int, outputSize: int):
         """
         Constructs the model.
