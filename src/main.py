@@ -46,7 +46,7 @@ class Main:
 
     def get_response(self, intents_list, intents_json):
         if len(intents_list) == 0:
-            result = 'Come again?'
+            result = "I'm sorry, but I am having trouble understanding you..."
         else:
             tag = intents_list[0]
 
@@ -61,7 +61,7 @@ class Main:
 if __name__ == '__main__':
     loaded_model_h5 = tf.keras.models.load_model(f'./models/modelV1.h5')
 
-    data = json.loads(open('./data/intents_v2.json').read())
+    data = json.loads(open('./data/intents_v3.json').read())
     words = pickle.load(open('./data/words.pkl', 'rb'))
     classes = pickle.load(open('./data/classes.pkl', 'rb'))
 
@@ -75,7 +75,7 @@ if __name__ == '__main__':
     while True:
         user_input = input('')
         if user_input.lower() == 'exit':
-            os.kill(os.getpid(), signal.SIGINT)
+            break
 
         intents = main.predict_class(user_input, words, classes)
         result = main.get_response(intents, data)

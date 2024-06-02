@@ -125,12 +125,13 @@ class ModelV1:
             train_y = np.array(list(training[:, 1]))
 
             model = self.construct_model(len(train_X[0]), len(train_y[0]))
-            early_stopping = EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)
+            early_stopping = EarlyStopping(monitor='val_loss', patience=80, restore_best_weights=True)
             model.fit(
                 x=train_X, 
                 y=train_y, 
-                epochs=100, 
+                epochs=300, 
                 verbose=2,
+                validation_split=0.2,
                 callbacks=[early_stopping]
             )
 

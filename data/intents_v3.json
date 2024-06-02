@@ -102,7 +102,7 @@
         },
         {
             "tag": "culinary_experiences",
-            "patterns": ["Places to eat", "What food can I try in Southern Province?", "Popular restaurants in Southern Province", "Culinary experiences in Southern Province", "Where to eat in Southern Province", "Local food recommendations", "Where can I eat", "Food tours in Southern Province", "Best places to dine in Southern Province", "Culinary adventures in Southern Sri Lanka", "Food and dining options in Southern Province", "What are the must-try dishes in Southern Province?", "Where can I find traditional Sri Lankan cuisine?"],
+            "patterns": ["Places to eat", "What food can I try in Southern Province?", "Popular restaurants in Southern Province", "Culinary experiences in Southern Province", "Where to eat in Southern Province", "Local food recommendations", "Where can I eat", "Food tours in Southern Province", "Best places to dine in Southern Province", "Culinary adventures in Southern Sri Lanka", "Food and dining options in Southern Province", "What are the must-try dishes in Southern Province?", "Where can I find traditional Sri Lankan cuisine?", "Where can I have a meal"],
             "responses": [
                 "Seven Harbor Seafood Restaurant: Offers fresh seafood with a scenic view.",
                 "The Fort Printers: Known for its fusion of Sri Lankan and international cuisine.",
@@ -196,7 +196,7 @@
         },
         {
             "tag": "bars_nightlife",
-            "patterns": ["Nightlife in Southern Province", "Bars in Southern Sri Lanka", "Best clubs in Southern Province", "Where to drink in Southern Province?", "Nightlife activities in Southern Province", "where can i grab a drink", "clubs in southern province", "nightlife spots in southern province"],
+            "patterns": ["Nightlife in Southern Province", "Bars in Southern Sri Lanka", "Best clubs in Southern Province", "Where to drink in Southern Province?", "Nightlife activities in Southern Province", "where can i grab a drink", "clubs in southern province", "nightlife spots in southern province", "I like clubs"],
             "responses": [
                 "Check out Tiki Bar in Weligama for a lively atmosphere and great drinks.",
                 "The Doctor's House in Madiha is perfect for a relaxed evening with music and cocktails.",
