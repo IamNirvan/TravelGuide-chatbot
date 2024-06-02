@@ -1,0 +1,208 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Greetings", "What's up?"],
+            "responses": ["Hello! How can I assist you with your trip to the Southern Province of Sri Lanka?", "Hi there! What would you like to know about Southern Province?", "Hey! How can I help you today with your plans in Southern Province?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "Goodbye", "See you later", "Farewell", "Talk to you later"],
+            "responses": ["Goodbye! Have a great day!", "See you later! Enjoy your trip!", "Farewell! Feel free to ask if you have more questions."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "Much appreciated", "Thanks a lot", "Thank you very much"],
+            "responses": ["You're welcome!", "Happy to help!", "Anytime! Have a great day!"]
+        },
+        {
+            "tag": "activities",
+            "patterns": ["What can I do in the Southern Province?", "Activities in Southern Province", "Things to do in Southern Sri Lanka", "Tourist activities Southern Province", "What are some fun activities in Southern Province?"],
+            "responses": ["There are many activities to enjoy in the Southern Province, such as visiting beaches, hiking areas, waterfalls, historical places, bird watching, wildlife tours, adventure sports, and more."]
+        },
+        {
+            "tag": "beaches",
+            "patterns": ["Tell me about beaches in Southern Province", "Best beaches in Southern Province", "Beach recommendations Southern Sri Lanka", "Where are the best beaches?", "Which beaches should I visit in Southern Province?"],
+            "responses": [
+                "Mirissa Beach: Known for its beautiful sunsets, surfing, and whale watching.",
+                "Unawatuna Beach: Famous for its calm waters, ideal for swimming and snorkeling.",
+                "Hikkaduwa Beach: Offers great coral reefs and is a hub for surfing and nightlife.",
+                "Weligama Beach: Popular for its surfing schools and laid-back atmosphere.",
+                "Tangalle Beach: A serene spot for relaxation and natural beauty."
+            ]
+        },
+        {
+            "tag": "historical_places",
+            "patterns": ["Historical places in Southern Province", "Historic sites Southern Sri Lanka", "Visit historical places", "What historical sites are in Southern Province?", "Recommend some historical places to visit"],
+            "responses": [
+                "Galle Dutch Fort: A UNESCO World Heritage site with well-preserved ramparts, museums, and colonial architecture.",
+                "Old Town of Galle and its Fortifications: A historical area featuring Dutch colonial buildings, museums, and churches.",
+                "Bell Tower of Galle Fort: A historical landmark offering views of the surrounding fort area.",
+                "Mulkirigala Rock Temples: Ancient rock temples with Buddhist murals and statues.",
+                "Kataragama Temple: A significant religious site for Buddhists, Hindus, and Muslims."
+            ]
+        },
+        {
+            "tag": "wildlife",
+            "patterns": ["Wildlife activities Southern Province", "Animal tours Southern Sri Lanka", "Wildlife in Southern Province", "Where can I see wildlife?", "Tell me about wildlife tours in Southern Province"],
+            "responses": [
+                "Yala National Park: Famous for its wildlife including elephants, leopards, and bird species.",
+                "Bundala National Park: Known for its birdwatching opportunities and diverse ecosystems.",
+                "Sea Turtle Hatchery in Habaraduwa: Learn about conservation efforts and see baby turtles.",
+                "Sinharaja Forest Reserve: A UNESCO World Heritage site known for its rich biodiversity.",
+                "Udawalawe National Park: Great for spotting large herds of elephants and bird species."
+            ]
+        },
+        {
+            "tag": "waterfalls",
+            "patterns": ["Waterfalls in Southern Province", "Best waterfalls to visit", "Waterfall tours Southern Sri Lanka", "Which waterfalls can I visit?", "Tell me about the waterfalls in Southern Province"],
+            "responses": [
+                "Diyaluma Falls: The second-highest waterfall in Sri Lanka, perfect for a day trip.",
+                "Ravana Falls: A popular tourist attraction with beautiful scenery.",
+                "Bopath Ella: Known for its unique shape resembling a leaf of the sacred fig tree."
+            ]
+        },
+        {
+            "tag": "adventure",
+            "patterns": ["Adventure activities Southern Province", "Thrill-seeking in Southern Sri Lanka", "Adventure sports Southern Province", "What adventure activities are there?", "Exciting activities in Southern Province"],
+            "responses": [
+                "Whale watching in Mirissa: A popular activity for spotting blue whales and dolphins.",
+                "Surfing at Mirissa Beach: A great spot for both beginner and experienced surfers.",
+                "Stilt Fishing: Experience the traditional fishing method unique to Sri Lanka.",
+                "Hiking in Sinharaja Forest Reserve: Explore the biodiversity and enjoy guided treks.",
+                "Scuba diving in Unawatuna: Discover underwater coral reefs and marine life."
+            ]
+        },
+        {
+            "tag": "bathing_places",
+            "patterns": ["Where can I swim in Southern Province?", "Best swimming spots", "Bathing places in Southern Province", "Swimming areas Southern Province", "Recommend places to swim", "Where can I go swimming"],
+            "responses": [
+                "Jungle Beach: A secluded beach with calm waters ideal for swimming.",
+                "Weligama Bay: Perfect for beginner surfers and swimmers.",
+                "Polhena Beach: Known for its shallow waters and safe swimming environment."
+            ]
+        },
+        {
+            "tag": "temples",
+            "patterns": ["Tell me about temples in Southern Province", "Famous temples in Southern Sri Lanka", "Temple tours Southern Province", "Which temples should I visit?", "What are some religious sites in Southern Province?"],
+            "responses": [
+                "Kataragama Temple: A significant religious site for Buddhists, Hindus, and Muslims.",
+                "Mulkirigala Rock Temples: Ancient rock temples with Buddhist murals and statues.",
+                "Weherahena Temple: Famous for its large Buddha statue and intricate underground temple.",
+                "The Temple of the Sacred Tooth Relic: A historical temple located in Kandy, a bit further north."
+            ]
+        },
+        {
+            "tag": "lighthouses",
+            "patterns": ["Tell me about lighthouses in Southern Province", "Famous lighthouses in Southern Sri Lanka", "Lighthouse tours Southern Province", "Which lighthouses can I visit?", "Recommend lighthouses to see"],
+            "responses": [
+                "Galle Lighthouse: Located within Galle Fort, it offers stunning views of the ocean.",
+                "Dondra Head Lighthouse: The tallest lighthouse in Sri Lanka, located at the southernmost point."
+            ]
+        },
+        {
+            "tag": "culinary_experiences",
+            "patterns": ["Places to eat", "What food can I try in Southern Province?", "Popular restaurants in Southern Province", "Culinary experiences in Southern Province", "Where to eat in Southern Province", "Local food recommendations", "Where can I eat", "Food tours in Southern Province", "Best places to dine in Southern Province", "Culinary adventures in Southern Sri Lanka", "Food and dining options in Southern Province", "What are the must-try dishes in Southern Province?", "Where can I find traditional Sri Lankan cuisine?"],
+            "responses": [
+                "Seven Harbor Seafood Restaurant: Offers fresh seafood with a scenic view.",
+                "The Fort Printers: Known for its fusion of Sri Lankan and international cuisine.",
+                "Pedlar's Inn Cafe: A cozy spot for coffee and light meals within Galle Fort.",
+                "Lucky Fort Restaurant: Famous for its Sri Lankan rice and curry dishes.",
+                "Mama's Galle Fort Roof Cafe: Offers traditional Sri Lankan dishes with a rooftop view."
+            ]
+        },
+        {
+            "tag": "accommodations",
+            "patterns": ["Where can I stay in Southern Province?", "Best hotels in Southern Province", "Accommodation options in Southern Province", "Where to stay in Southern Province", "Hotel recommendations", "Resorts in Southern Province", "Luxury accommodations"],
+            "responses": [
+                "DoubleTree by Hilton Weerawila Rajawarna Resort: A luxury resort with modern amenities.",
+                "Fort Bazaar: A boutique hotel located in the heart of Galle Fort.",
+                "The Bartizan Galle Fort: Offers beautiful views and historical charm.",
+                "Shangri-La's Hambantota Golf Resort and Spa: A premium resort with golf and spa facilities.",
+                "Amanwella Resort: A luxury beachfront resort in Tangalle."
+            ]
+        },
+        {
+            "tag": "airbnb_experiences",
+            "patterns": ["Airbnb experiences in Southern Province", "What Airbnb activities are available?", "Unique experiences in Southern Sri Lanka", "Special activities in Southern Province"],
+            "responses": [
+                "Traditional Gems and Jewelry Workshop: Learn about and create traditional jewelry.",
+                "Surf Weligama: Surfing lessons for all skill levels.",
+                "Udawalawa National Park Safari Tour: Explore wildlife in a guided safari.",
+                "Authentic Sri Lankan Rice and Curry Cooking Class: Learn to cook traditional Sri Lankan dishes.",
+                "Rainforest Full Day Tour By Sinharaja Expedition: A full day tour exploring the Sinharaja rainforest.",
+                "The Tea Tour: Discover the process of making Ceylon tea.",
+                "Sunrise hike to Ella Rock: A scenic hike with breathtaking views."
+            ]
+        },
+        {
+            "tag": "surfing",
+            "patterns": ["Best surfing spots", "Surfing beaches", "Surf schools", "Learn to surf", "Surfing lessons"],
+            "responses": [
+                "Mirissa Beach is known for its beautiful sunsets and great waves for surfing.",
+                "Hikkaduwa Beach offers exciting waves and vibrant nightlife for surfers.",
+                "Weligama Beach is perfect for beginners with its gentle waves and surfing schools."
+            ]
+        },
+        {
+            "tag": "hiking",
+            "patterns": ["Best hiking trails", "Hiking spots", "Nature trails", "Guided hikes", "Hiking tours"],
+            "responses": [
+                "Sinharaja Forest Reserve offers guided hikes through its rich biodiversity.",
+                "Ella Rock provides a challenging hike with rewarding views of the surrounding landscapes.",
+                "Mulkirigala Rock Temples offer a cultural and scenic hike with ancient Buddhist murals."
+            ]
+        },
+        {
+            "tag": "tea_plantations",
+            "patterns": ["Tell me about tea plantations in Southern Province", "Best tea plantations to visit", "Tea plantation tours Southern Sri Lanka", "Where can I visit tea plantations?", "Top tea plantations in Southern Province", "Famous tea estates in Southern Sri Lanka", "Tea experiences in Southern Province"],
+            "responses": [
+                "Handunugoda Tea Estate: Known for its 'Virgin White Tea', offers guided tours and tastings.",
+                "Virgin White Tea Plantation: Famous for its unique tea production process, provides tours and insights.",
+                "Hadunugoda Tea Estate: Offers a comprehensive look into tea production along with tastings.",
+                "Visit tea plantations like Handunugoda for a unique tea-tasting experience and guided tours."
+            ]
+        },
+        {
+            "tag": "tea_tastings",
+            "patterns": ["Where can I do tea tastings in Southern Province?", "Tea tasting tours Southern Sri Lanka", "Best places for tea tastings", "Tea experiences Southern Province", "Top tea tasting spots", "Tea tasting recommendations Southern Province"],
+            "responses": [
+                "Handunugoda Tea Estate: Offers tastings of its famous Virgin White Tea and other varieties.",
+                "Virgin White Tea Plantation: Enjoy tastings of their unique tea products during guided tours.",
+                "Experience tea tastings at plantations like Handunugoda and learn about the tea-making process.",
+                "For a memorable tea-tasting experience, visit Handunugoda Tea Estate in Southern Province.",
+                "Discover the flavors of Sri Lankan tea with tastings at Handunugoda and other plantations."
+            ]
+        },
+        {
+            "tag": "transportation",
+            "patterns": ["How to get around Southern Province?", "Transport options in Southern Province", "Getting to Southern Province", "Public transportation in Southern Sri Lanka", "Traveling within Southern Province", "How do I travel in Southern Province?", "Best way to get around Southern Province"],
+            "responses": ["You can travel around Southern Province by bus, train, tuk-tuk, or taxi. Buses and trains are affordable for longer distances, while tuk-tuks are convenient for short trips. Taxis and car rentals are also available for private transportation.", "Public transport options in Southern Province include buses and trains for longer distances, and tuk-tuks for short trips. Taxis and car rentals offer more convenience for private travel."]
+        },
+        {
+            "tag": "currency",
+            "patterns": ["What currency is used in Southern Province?", "Currency exchange in Southern Sri Lanka", "Money in Southern Province", "Sri Lankan Rupee", "Currency information", "What money do they use in Southern Province?", "Currency tips for Southern Sri Lanka"],
+            "responses": ["The currency used in Southern Province and throughout Sri Lanka is the Sri Lankan Rupee (LKR). It is recommended to exchange currency at banks, authorized exchange offices, or ATMs for the best rates.", "In Southern Province, the currency is the Sri Lankan Rupee (LKR). For the best exchange rates, use banks, authorized exchange offices, or ATMs."]
+        },
+        {
+            "tag": "safety",
+            "patterns": ["Is Southern Province safe for tourists?", "Safety tips for Southern Sri Lanka", "Travel safety in Southern Province", "Crime rates in Southern Province", "Safety precautions for travelers", "Is it safe to visit Southern Province?", "Tourist safety in Southern Province"],
+            "responses": ["Southern Province is generally safe for tourists, but it is advisable to take common safety precautions. Be cautious of your belongings, avoid isolated areas at night, and follow local laws and customs. In case of emergencies, contact local authorities or your embassy.", "While Southern Province is mostly safe for tourists, it's important to stay aware of your surroundings, secure your belongings, avoid isolated areas after dark, and adhere to local laws and customs."]
+        },
+        {
+            "tag": "languages",
+            "patterns": ["What languages are spoken in Southern Province?", "Language information in Southern Sri Lanka", "Common languages in Southern Province", "Local dialects", "Language diversity", "What language do they speak in Southern Province?", "Languages used in Southern Sri Lanka"],
+            "responses": ["The official languages of Sri Lanka are Sinhala and Tamil. In Southern Province, you may also hear English spoken, especially in tourist areas. Learning a few basic phrases in Sinhala or Tamil can enhance your experience.", "Sinhala and Tamil are the official languages of Sri Lanka, with English commonly spoken in tourist areas of Southern Province. Knowing basic Sinhala or Tamil phrases can be helpful."]
+        },
+        {
+            "tag": "bars_nightlife",
+            "patterns": ["Nightlife in Southern Province", "Bars in Southern Sri Lanka", "Best clubs in Southern Province", "Where to drink in Southern Province?", "Nightlife activities in Southern Province", "where can i grab a drink", "clubs in southern province", "nightlife spots in southern province"],
+            "responses": [
+                "Check out Tiki Bar in Weligama for a lively atmosphere and great drinks.",
+                "The Doctor's House in Madiha is perfect for a relaxed evening with music and cocktails.",
+                "Zephyr Restaurant & Bar in Mirissa offers beachside vibes with delicious drinks.",
+                "Head to Yula Beach Bar in Hikkaduwa for a vibrant nightlife scene."
+            ]
+        }
+    ]
+}
