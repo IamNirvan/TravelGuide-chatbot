@@ -1,5 +1,4 @@
-# Chatbot agent utilizing machine learning
-
+# TravelGuide - Chatbot
 This project is a simple implementation of a chatbot using a neural network model for intent classification.
 
 ## Technologies
